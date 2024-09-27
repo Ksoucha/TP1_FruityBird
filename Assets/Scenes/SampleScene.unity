@@ -273,7 +273,7 @@ MonoBehaviour:
   positiveSound: {fileID: 829198516}
   negativeSound: {fileID: 1431430909}
   currentBox: {fileID: 169589839}
-  acceptableFruitType: 1
+  acceptedFruitType: 1
 --- !u!1 &366981452
 GameObject:
   m_ObjectHideFlags: 0
@@ -555,7 +555,7 @@ MonoBehaviour:
   positiveSound: {fileID: 829198516}
   negativeSound: {fileID: 1431430909}
   currentBox: {fileID: 400437031}
-  acceptableFruitType: 0
+  acceptedFruitType: 0
 --- !u!1 &423910085
 GameObject:
   m_ObjectHideFlags: 0
@@ -975,7 +975,7 @@ MonoBehaviour:
   positiveSound: {fileID: 829198516}
   negativeSound: {fileID: 1431430909}
   currentBox: {fileID: 664426014}
-  acceptableFruitType: 2
+  acceptedFruitType: 2
 --- !u!1 &788289735
 GameObject:
   m_ObjectHideFlags: 0
@@ -2129,8 +2129,8 @@ MonoBehaviour:
   scoreCounter: {fileID: 0}
   positiveSound: {fileID: 829198516}
   negativeSound: {fileID: 1431430909}
-  currentBox: {fileID: 0}
-  acceptableFruitType: 3
+  currentBox: {fileID: 1916850595}
+  acceptedFruitType: 3
 --- !u!1 &1965843487
 GameObject:
   m_ObjectHideFlags: 0

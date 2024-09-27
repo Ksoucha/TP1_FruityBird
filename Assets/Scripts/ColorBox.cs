@@ -12,7 +12,7 @@ public class ColorBox : MonoBehaviour
     public AudioSource negativeSound;
 
     public GameObject currentBox;
-    public FruitType acceptableFruitType;
+    public FruitType acceptedFruitType;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -21,7 +21,7 @@ public class ColorBox : MonoBehaviour
         {
             Debug.Log("Collision");
 
-            if (anyFruit.fruitType == acceptableFruitType)
+            if (anyFruit.fruitType == acceptedFruitType)
             {
                 scoreCounter.AddScore(1);
                 positiveSound.Play();
