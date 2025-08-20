@@ -1,5 +1,5 @@
 # FruityBird
-A mini-game that is inspired by the Suika game.
+A mini-game that involves dropping fruits in the corresponding color box while avoiding obstacles.
 
 ![image](https://github.com/user-attachments/assets/3114b07c-4126-464e-8836-b071219596d3)
 
